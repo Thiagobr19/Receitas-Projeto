@@ -1,0 +1,54 @@
+/* Adicione esta parte ao seu arquivo de estilo (formatos.css ou macaco.css) */
+
+/* Formulário */
+form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Rótulos */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Layout para os campos Número e Complemento */
+#numero,
+#complemento {
+    width: calc(50% - 5px); /* 50% do espaço menos a margem de 5px entre os campos */
+    margin-right: 10px; /* Margem à direita para separar os campos */
+}
+
+/* Botão de envio */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
